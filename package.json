@@ -1,0 +1,19 @@
+{
+  "name": "base",
+  "version": "0.0.1",
+  "description": "前端一些常用方法库集合,包括 1. 基本的DOM操作 2. 网络请求 3. 工具函数 4. cookie操作",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kurset/base.git"
+  },
+  "author": "kurset",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kurset/base/issues"
+  },
+  "homepage": "https://github.com/kurset/base#readme"
+}
