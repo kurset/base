@@ -1,7 +1,7 @@
 import Traverse from './traverse';
 
 
-window.$ = function(selector) {
+var $ = function(selector) {
     return $.fn.init(selector);
 }
 
@@ -42,3 +42,5 @@ $.extend = $.fn.extend = function(destination, source) {
 
 //遍历函数
 $.fn.extend(Traverse);
+
+export default $;
