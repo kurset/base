@@ -13,6 +13,7 @@
     <script src="./src/index.js"></script>
     <script>
         var elem = document.getElementById('wang');
+
         var ajax = {
             get: function() {
                 console.log('hello');
@@ -20,7 +21,10 @@
         }
         $.extend(ajax);
         console.dir($);
-        console.log($(elem))
+
+        $(elem).each((elem, i) => {
+            console.log(elem, i);
+        });
     </script>
 </body>
 </html>

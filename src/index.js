@@ -1,4 +1,7 @@
-var $ = function(selector) {
+import Traverse from './traverse';
+
+
+window.$ = function(selector) {
     return $.fn.init(selector);
 }
 
@@ -36,3 +39,6 @@ $.extend = $.fn.extend = function(destination, source) {
         }
     }
 }
+
+//遍历函数
+$.fn.extend(Traverse);
