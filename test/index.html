@@ -4,11 +4,28 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <link rel="stylesheet" href="./vendor/mocha.min.css">
+    <style>
+        .test-app {
+            margin: 40px;
+        }
+    </style>
+    <title>测试</title>
 </head>
 <body>
-    
-    <div id="wang">hello </div>
+    <div class="test-app">
+        <h1 id="word">hello</h1>
 
+        <ul>
+            <li class="li-item">茄子</li>
+            <li class="li-item">黄瓜</li>
+            <li class="li-item">香蕉</li>
+        </ul>
+    </div>
+
+    <div id="mocha">
+
+    </div>
+    <script src="./vendor/mocha.min.js"></script>
 </body>
 </html>

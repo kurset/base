@@ -6,12 +6,13 @@ module.exports = {
     entry: './test/index.js',
     output: {
         path: path.resolve(__dirname, 'dist'),
-        filename: 'base.js'
+        filename: 'test.js'
     },
     devServer: {
-        contentBase: path.resolve(__dirname, 'dist'),
+        contentBase: path.resolve(__dirname, 'test'),
         port: 9000,
-        hot: true
+        hot: true,
+        stats: "errors-only"
     },
     module: {
         rules: [
